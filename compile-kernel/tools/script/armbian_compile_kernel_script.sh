@@ -6,12 +6,12 @@
 # warranty of any kind, whether express or implied.
 #
 # This file is a part of the Rebuild Armbian
-# https://github.com/ophub/amlogic-s9xxx-armbian
+# https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 # Description: Run on Armbian, Compile the kernel.
 # Copyright (C) 2021~ https://www.kernel.org
 # Copyright (C) 2021~ https://github.com/unifreq
-# Copyright (C) 2021~ https://github.com/ophub/amlogic-s9xxx-armbian
+# Copyright (C) 2021~ https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 # Command: armbian-kernel
 # Command optional parameters please refer to the source code repository
@@ -67,7 +67,7 @@ auto_kernel="true"
 # Set whether to apply custom kernel patches, options: [ true / false ]
 auto_patch="false"
 # Set custom signature for the kernel
-custom_name="-ophub"
+custom_name="-Dwarven"
 # Set the kernel compile object, options: [ dtbs / all ]
 package_list="all"
 

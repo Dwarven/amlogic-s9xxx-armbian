@@ -1,6 +1,6 @@
 #==========================================================================
 # Description: Build Armbian
-# Copyright (C) 2021 https://github.com/ophub/amlogic-s9xxx-armbian
+# Copyright (C) 2021 https://github.com/Dwarven/amlogic-s9xxx-armbian
 #==========================================================================
 
 name: Build armbian
@@ -172,10 +172,10 @@ on:
       kernel_repo:
         description: "Set the kernel repository."
         required: false
-        default: "ophub/kernel"
+        default: "Dwarven/kernel"
         type: choice
         options:
-          - ophub/kernel
+          - Dwarven/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
@@ -205,10 +205,10 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "ophub"
+        default: "Dwarven"
         type: choice
         options:
-          - ophub
+          - Dwarven
           - angel
           - yourname
 
@@ -285,7 +285,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Rebuild Armbian
-        uses: ophub/amlogic-s9xxx-armbian@main
+        uses: Dwarven/amlogic-s9xxx-armbian@main
         if: ${{ steps.clean.outputs.status }} == 'success' && !cancelled()
         with:
           build_target: armbian

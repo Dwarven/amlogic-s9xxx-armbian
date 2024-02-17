@@ -6,11 +6,11 @@
 # warranty of any kind, whether express or implied.
 #
 # This file is a part of the Rebuild Armbian
-# https://github.com/ophub/amlogic-s9xxx-armbian
+# https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 # Description: Run on Armbian, generate uInitrd.
 # Copyright (C) 2021- https://github.com/unifreq
-# Copyright (C) 2021- https://github.com/ophub/amlogic-s9xxx-armbian
+# Copyright (C) 2021- https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 #===================== Set make environment variables =====================
 #

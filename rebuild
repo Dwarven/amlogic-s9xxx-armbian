@@ -6,13 +6,13 @@
 # warranty of any kind, whether express or implied.
 #
 # This file is a part of the Rebuild Armbian
-# https://github.com/ophub/amlogic-s9xxx-armbian
+# https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 # Description: Run on x86_64 Ubuntu-22.04, Rebuild armbian.
 # Copyright (C) 2021~ https://www.armbian.com
 # Copyright (C) 2021~ https://github.com/unifreq
-# Copyright (C) 2021~ https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/CONTRIBUTORS.md
-# Copyright (C) 2021~ https://github.com/ophub/amlogic-s9xxx-armbian
+# Copyright (C) 2021~ https://github.com/Dwarven/amlogic-s9xxx-armbian/blob/main/CONTRIBUTORS.md
+# Copyright (C) 2021~ https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 # Command: sudo ./rebuild
 # Command optional parameters please refer to the source code repository
@@ -80,7 +80,7 @@ uboot_repo="https://github.com/ophub/u-boot"
 firmware_repo="https://github.com/ophub/firmware"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/Dwarven/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 # Set the tags(kernel_xxx) of the specific kernel, such as 5.15.y, 6.1.y, etc.
@@ -1050,7 +1050,7 @@ refactor_rootfs() {
         echo "UBOOT_OVERLOAD='${UBOOT_OVERLOAD}'" >>${ophub_release_file}
     fi
     echo "BUILD_REPOSITORY='github.com/armbian/build'" >>${ophub_release_file}
-    echo "REBUILD_REPOSITORY='github.com/ophub/amlogic-s9xxx-armbian'" >>${ophub_release_file}
+    echo "REBUILD_REPOSITORY='github.com/Dwarven/amlogic-s9xxx-armbian'" >>${ophub_release_file}
     echo "CONTRIBUTORS='${CONTRIBUTORS}'" >>${ophub_release_file}
     echo "BUILDER_NAME='${builder_name}'" >>${ophub_release_file}
     echo "PACKAGED_DATE='$(date +%Y-%m-%d)'" >>${ophub_release_file}

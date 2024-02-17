@@ -6,7 +6,7 @@
 # warranty of any kind, whether express or implied.
 #
 # This file is a part of the Rebuild Armbian
-# https://github.com/ophub/amlogic-s9xxx-armbian
+# https://github.com/Dwarven/amlogic-s9xxx-armbian
 #
 # Function: Customize the startup script, adding content as needed.
 # Dependent script: /etc/rc.local
