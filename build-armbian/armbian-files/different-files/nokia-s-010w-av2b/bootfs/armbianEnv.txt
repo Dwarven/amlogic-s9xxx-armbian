@@ -1,0 +1,12 @@
+verbosity=1
+bootlogo=false
+fdtfile=/dtb/rockchip/rk3228h-nokia-s-010w-av2b.dtb
+rootdev=UUID=769823ea-25d2-4149-9715-0ae6aa7f452d
+rootfstype=ext4
+rootflags=rw,errors=remount-ro
+overlay_prefix=rockchip
+overlays=
+extraargs=
+extraboardargs=net.ifnames=0
+docker_optimizations=on
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
